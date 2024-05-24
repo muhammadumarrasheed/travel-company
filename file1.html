@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>World Explorers</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Do+Hyeon|Luckiest+Guy|Ubuntu+Mono"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Ubuntu Mono', monospace;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        background: #007bff;
+        color: #fff;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .logo h2 {
+        margin: 0;
+        font-family: 'Luckiest Guy', cursive;
+      }
+
+      .logo a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      #hero-section{
+        background-color: #c7e2ff;
+      }
+
+
+
+      .intro {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        margin-top: 80px;
+        padding-bottom: 0px;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .intro h1 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 3rem;
+      }
+
+      .intro p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin-left: 140px;
+      }
+
+      .tour img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      .Testimonials {
+        background: #f8f9fa;
+        padding: 2rem;
+      }
+
+      .Testimonials h3 {
+        text-align: center;
+      }
+
+      .Testimonials .quote {
+        font-style: italic;
+        margin: 1rem 0;
+      }
+
+      .email {
+        padding: 2rem;
+      }
+
+      .email h3 {
+        text-align: center;
+      }
+
+      footer {
+        background: #007bff;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      footer ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0;
+      }
+
+      footer ul li a {
+        color: #fff;
+      }
+
+      .destination-description {
+        text-align: center;
+        padding: 0 40px;
+      }
+
+      .rounded-corner-image {
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          <h2 class="logo">World Explorers</h2>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#tours">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="intro container-fluid" id="hero-section">
+      <div class="row align-items-center text-center">
+        <div class="col-md-6 mx-auto">
+          <h1>Welcome to World Explorers</h1>
+          <p>
+            Discover amazing destinations around the world and embark on
+            unforgettable adventures with us.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="https://images.unsplash.com/photo-1620652017459-eb0792c60fd2?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Adventure"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="catalogue container mx-auto" id="tours">
+      <h2 style="text-align: center;">Destinations</h2>
+      <p style="text-align: center;">Explore our curated travel destinations</p>
+      <div class="row mb-4">
+        <div class="col-md-6 text-center" style="margin-top: 60px;">
+          <h3>Paris, France</h3>
+          <p>
+            Experience the romance and charm of Paris with our exclusive tours
+            that cover iconic landmarks, fine dining, and cultural experiences.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="https://images.unsplash.com/photo-1601224065850-24bfad5400bd?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Paris"
+            class="img-fluid rounded-corner-image"
+          />
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <img
+            src="https://images.unsplash.com/photo-1528719953625-3e95efad84da?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="New York"
+            class="img-fluid rounded-corner-image"
+          />
+        </div>
+        <div class="col-md-6 text-center" style="margin-top: 60px;">
+          <h3>New York, USA</h3>
+          <p>
+            Explore the vibrant city of New York with tours that take you
+            through its bustling streets, famous landmarks, and hidden gems.
+            Experience the energy of Times Square, the history of the Statue of
+            Liberty, and the serenity of Central Park.
+          </p>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-6 text-center" style="margin-top: 50px;">
+          <h3>Sydney, Australia</h3>
+          <p>
+            Enjoy the sun, sea, and iconic sights of Sydney with our tours that
+            offer a perfect mix of relaxation and adventure. Visit the Sydney
+            Opera House, take a stroll along Bondi Beach, and explore the
+            beautiful Blue Mountains.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Sydney"
+            class="img-fluid rounded-corner-image"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="Testimonials container" id="about">
+      <h3>Testimonials From Our Travelers:</h3>
+      <hr />
+      <p class="quote">
+        The Paris tour was absolutely enchanting. The guides were knowledgeable
+        and the itinerary was perfect.
+      </p>
+      <p>- John Smith</p>
+      <p class="quote">
+        New York's energy is unmatched, and this tour captured it all. Highly
+        recommend!
+      </p>
+      <p>- Jane Doe</p>
+      <p class="quote">
+        Tokyo's blend of old and new is fascinating. The tour was well-organized
+        and very insightful.
+      </p>
+      <p>- Tom Wilson</p>
+    </section>
+    <section class="email container" id="contact">
+      <h3>Get in Touch</h3>
+      <p>
+        Want to know about our upcoming travel adventures or join one of our
+        exclusive tours? Just fill out the form below, and we'll get back to
+        you.
+      </p>
+      <hr />
+      <form class="form-inline justify-content-center">
+        <div class="form-group mb-2">
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary mb-2 ml-2">
+          Subscribe Now
+        </button>
+      </form>
+    </section>
+    <footer>
+      <p>Explore the world with us and create unforgettable memories!</p>
+      <ul>
+        <li>
+          <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-snapchat-square fa-2x"></i></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
